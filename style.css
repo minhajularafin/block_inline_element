@@ -1,0 +1,142 @@
+body{
+	background-color:#1c1e21;
+}
+
+.heading-left{
+	display: inline-block;
+	color: #DCDCDC;
+	/*background-color: #696969;*/
+	margin-left: 300px;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+
+.heading-right{
+	display: inline-block;
+    	color: #DCDCDC;
+    	/*background-color: #696969;*/
+    	margin-left: 500px; 
+    	margin-top: 20px;
+    	border-radius: 3px;   	
+}
+
+
+.col1{
+	display: inline-block;
+	width: 47%;
+	height: 300px;
+	background-color:#696969;
+	margin-left: 20px;
+	border: 5px solid black;
+	border-color: #C1CDCD;	
+	border-radius: 2px;
+	overflow: scroll;
+	scroll-behavior:smooth;
+
+}
+.col1 ul {
+  margin-left:40%;
+  list-style-type: disc;
+}
+.col1 ol{
+	margin-left: 40%;
+}
+
+/*.col2{
+	display: inline-block;
+	width: 47%;
+	height: 300px;
+    background-color: #696969;
+    margin-left:20px;
+    border-radius: 2px;
+    overflow: scroll;
+}
+
+.col2 ol {
+	margin-left: 40%;
+}
+*/
+
+
+.table h3{
+	text-align: center;
+	color: white;
+}
+.table{
+	font-family: sans-serif;
+	border-collapse: collapse;
+}
+.table table{
+	width: 100%;
+	margin-top: 50px;
+	color: white;
+}
+.table th,td{
+	border: 1px solid black;
+	text-align: left;
+	padding: 12px;
+
+} 
+
+tr:nth-child(even)
+{
+		 background-color: #C1CDCD;
+		 color: black;
+}
+
+.intro{
+		display: inline-block;
+		margin-left: 28px;
+}
+
+.heading{
+	color: white;
+	text-align: center;
+}
+.P{
+	color: white;
+	font-weight: 700;
+}
+.blockquote{
+	height: 250px;
+	background-color: #9932CC;
+	font-weight: 900;
+	border: 1px solid #9932CC;
+
+}
+.quotation {
+	margin-top: 100px;
+	margin-left: 30px;
+	}
+.quotation p{
+	margin-left: 1000px;
+	}
+.wrapper{
+	overflow: hidden;
+}	
+.red{
+	width: 25%;
+	height: 300px;
+	background-color: red;
+	float: left;
+}
+.green{
+	width: 25%;
+	height: 300px;
+	background-color: green;
+	float: left;
+}
+.blue{
+	width: 25%;
+	height: 300px;
+	background-color: blue;
+	float: left;
+}
+.yellow{
+	width: 25%;
+	height: 300px;
+	background-color:yellow;
+	float: left;
+}
+
+
